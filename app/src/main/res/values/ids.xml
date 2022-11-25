@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cardView" type="id" />
+    <item name="imageView3" type="id" />
+    <item name="usernamePM" type="id" />
+    <item name="logout_button" type="id" />
+    <item name="tableLayout" type="id" />
+    <item name="textView12" type="id" />
+    <item name="winStreak" type="id" />
+    <item name="tableLayout2" type="id" />
+    <item name="tableLayout3" type="id" />
+    <item name="textView18" type="id" />
+    <item name="WinPercentage2" type="id" />
+    <item name="tableLayout1" type="id" />
+    <item name="textView16" type="id" />
+    <item name="BestWinningHand2" type="id" />
+    <item name="textView14" type="id" />
+    <item name="biggestPotWin2" type="id" />
+</resources>

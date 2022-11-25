@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: F./Poker_Android_Game_Project/Poker/app/libs/spring-websocket-5.3.5.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/spring-websocket-5.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

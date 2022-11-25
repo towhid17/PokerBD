@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nbtype"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="4dp"
+        android:background="#A11128A8"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/nmethod1"
+        android:layout_width="100dp"
+        android:layout_height="33dp"
+        android:background="#611128A8"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nbtype" />
+
+    <TextView
+        android:id="@+id/ntype1"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:background="#A11128A8"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nmethod1" />
+
+    <TextView
+        android:id="@+id/ndetails1"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="4dp"
+        android:background="#720F0919"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ntype1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nreqdate"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:background="#6A342C40"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        android:textColor="#DCDADA"
+        android:textSize="6sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/guideline147"
+        app:layout_constraintStart_toEndOf="@+id/nbtype"
+        app:layout_constraintTop_toBottomOf="@+id/ndetails1" />
+
+    <TextView
+        android:id="@+id/nresdate"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:background="#6A342C40"
+        android:text="TextView"
+        android:textAlignment="viewEnd"
+        android:textColor="#DCDADA"
+        android:textSize="6sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline147"
+        app:layout_constraintTop_toBottomOf="@+id/ndetails1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline147"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".55" />
+</androidx.constraintlayout.widget.ConstraintLayout>

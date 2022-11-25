@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pokerbd.poker"
+    android:versionCode="2">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/pokericon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/pokericon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Poker"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".PaymentOption"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".PaymentSuccess_Activity"></activity>
+        <activity android:name=".BkashActivity"></activity>
+        <activity
+            android:name=".Notification"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CashIn"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CashOut"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CoinWithdraw"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Connectivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AdVideo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ProfileMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CoinPurchase"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".JoinFriends"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HostFriends"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BoardChoosing"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PokerHandRank"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".playwithfriend"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".LobbyScreen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HomeScreen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4862496362579786~4462288682" />
+    </application>
+
+</manifest>
